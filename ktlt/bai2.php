@@ -54,4 +54,4 @@ if(isset($_POST['draw']))
 		}
 		
 	?>
-		</table>
+

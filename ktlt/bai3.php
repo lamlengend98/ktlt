@@ -5,7 +5,7 @@
 	<title>Bài 3</title>
 </head>
 <body>
-	<form action="" method="get" id="form" accept-charset="utf-8">
+	<form action="" method="post" id="form" accept-charset="utf-8">
 		
 		<table  style="margin-left: 40%">
 			<p style="margin-left: 47%"><big><b>Đăng Ký</b></big></p>
@@ -48,13 +48,13 @@
 
 <?php 
 	error_reporting(0);
-	if (isset($_GET['submit'])) {
-		$id = $_GET['id'];
-		$name = $_GET['name'];
-		$date = $_GET['date'];
-		$gender = $_GET['gender'];
-		$ba = $_GET['ba'];
-		$class = $_GET['class'];
+	if (isset($_POST['submit'])) {
+		$id = $_POST['id'];
+		$name = $_POST['name'];
+		$date = $_POST['date'];
+		$gender = $_POST['gender'];
+		$ba = $_POST['ba'];
+		$class = $_POST['class'];
 
 	}
 ?>

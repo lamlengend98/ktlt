@@ -2,7 +2,7 @@
 <html>
 <meta charset="utf-8">
 <head>
-    <title>Thông tin sinh viên</title>
+    <title>Bài 1</title>
 </head>
 <body style="margin-left: 40%;">
     <p style="margin-left: 35px"><big><b>Thông tin sinh viên</b></big></p>
